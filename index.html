@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/e66f4b389f.js"></script>
+  </head>
+  <body>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="wrapper">
+                <div class="title">
+                  Sign Up
+                </div>
+                <form onsubmit="formvalidate()" name="myForm1" >
+                <div class="form">
+                   <div class="inputfield">
+                      <label>Username</label>
+                      <input type="text" class="input" name="fname" required>
+                   </div>  
+                    <div class="inputfield">
+                      <label>Email</label>
+                      <input type="email" class="input" name="femail" required>
+                   </div>  
+                   <div class="inputfield">
+                      <label>Password</label>
+                      <input type="password" class="input" name="fpswrd1" required>
+                   </div>  
+                  <div class="inputfield">
+                      <label>Confirm Password</label>
+                      <input type="password" class="input" name="fpswrd2" required>
+                   </div> 
+                   <input class="Register" type="submit" value="signin">
+                    <span class="close">&times;</span>
+                </form>
+        </div>
+    </div>
+        </div>
+    </div>
+
+    <div id="myModal1" class="modal">
+        <div class="modal-content1">
+            <div class="wrapper">
+                <div class="title">
+                  Login
+                </div>
+                <form onsubmit="formvalidate()" name="myForm2">
+                <div class="form">
+                   <div class="inputfield">
+                      <label>Username</label>
+                      <input type="text" class="input" name="fname">
+                   </div>    
+                   <div class="inputfield">
+                      <label>Password</label>
+                      <input type="password" class="input" name="fpswrd">
+                   </div>  
+                 
+                   <input class="Register" type="submit" value="signin">
+                    <span class="close1">&times;</span>
+                </form>
+        </div>
+    </div>
+        </div>
+    </div>
+
+    <header id="home">
+        <div class="welcome">
+            <h2>Wellcome!<span style="color:#336699;">&Explore ~ </span></h2>
+        </div>
+        <div class="accounts">
+                <h3 ><span style="color:rgb(56, 93, 216)"><a href="#" id="modal_sign"><i class="fa fa-user-plus" aria-hidden="true"></i> Signup </a></span></h3>
+                <h3><span style="color:rgb(54, 199, 192)"><a href="#" id="modal_log"><i class="fa fa-sign-in" aria-hidden="true"></i> Login </a></span></h3>
+                <h3><span style="color:rgb(54, 199, 192)"><i class="fa fa-user" aria-hidden="true"></i><a href="about.html"> About Us </a></span></h3>
+               
+        </div>
+    </header>
+    <div class="logo">
+        <div class="left_logo">
+            <img src="https://png.pngtree.com/template/20190316/ourmid/pngtree-books-logo-image_79143.jpg">  
+            <h1> Qwick Books  </h1>
+        
+                
+            
+        </div>
+        <div class="right_logo">
+           <h1><input type="text" name="inputtext" placeholder="Search..."><i class="fa fa-search" aria-hidden="true"></i></h1>
+            <h1><i class="fa fa-heart-o" aria-hidden="true"></i><span style="color:#ff99cc"> Favourites </span></h1>
+            <h1><i class="fa fa-shopping-cart" aria-hidden="true"></i><span style="color:rgb(107, 93, 93)"> Cart </span></h1>
+        </div>
+    </div>
+    <nav class="navbar">
+        <div class="navbar_heading">
+            <h2><i>Qwick Books</i></h2>
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="humour.html">Humour</a></li>
+            <li><a href="comics.html">Comics&mangas</a></li>
+            <li><a href="#offers">Offers</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="container">
+        
+
+        <section class = "slider">
+            <div class="slideshow-container">
+              <div class="mySlides fade">
+                <div class="numbertext"></div>
+                 <img src="https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-50 viewHeight" width = "100%"; height="400px" />
+                <div class="text"></div>
+              </div>
+            
+              <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="https://images.pexels.com/photos/2041540/pexels-photo-2041540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-50 viewHeight" width="100%" ;height="400px" />
+                <div class="text"></div>
+              </div>
+            
+               <div class="mySlides fade">
+                <div class="numbertext""></div>
+                <img src="https://images.pexels.com/photos/207662/pexels-photo-207662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-50 viewHeight" width="100%"; height="400px"/>
+                <div class="text"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext""></div>
+                <img src="https://images.pexels.com/photos/768125/pexels-photo-768125.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-50 viewHeight" width="100%"; height="400px"/>
+              </div>
+            
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <br>
+              </section>
+               </section>
+
+
+
+
+
+
+    </div>
+
+    <div id="offers">
+<a href="humour.html">
+        <img src="https://www.compareraja.in/blog/wp-content/uploads/2014/01/flipkart-book-offers-1440x564_c.jpg">
+        <img src="https://theshopperz.com/wp-content/uploads/2017/10/Buy-Books-Online-at-Best-Prices-in-India.jpg">
+        <img src="https://www.kathyhoward.org/wp-content/uploads/2018/05/2AgingParents_Banner_30Off2-1.jpg">
+        <img src="https://rukminim1.flixcart.com/flap/480/480/image/f03b29887e11019a.jpg?q=50"></a>
+    </div>
+
+    <div id="contact">
+        <div class="inner_contact">
+            <h2><span style="color:rgb(42, 120, 146)"><i>QWICK BOOKS~</i></span></h2>
+            <h3><i class="fa fa-phone" aria-hidden="true"></i> +91 40 2784 7401</h3>
+            <h3><i class="fa fa-mobile" aria-hidden="true"></i> +91 6303594492</h3>
+            <h3><span style="color:lightseagreen"><i class="fa fa-envelope" aria-hidden="true"></i> t.vaidhikraj18@gmail.com</span></h3>
+            <h3><span style="color:rgb(42, 120, 146)"><i class="fa fa-globe" aria-hidden="true"></i> www.qwickbooks.com </span></h3>
+        </div>
+        <div class="contact_side1">
+            <ul>
+                <li><a href="#"><span style="color:black"><b>CATEGORIES</b></span></a></li>
+                <br>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#">Books</a></li>
+                <li><a href="#">own Books</a></li>
+                <li><a href="#">Store loactor</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Blogs</a></li>
+            </ul>
+        </div>
+        <div class="contact_side2">
+            <ul>
+                <li><a href="#"><span style="color:black"><b>CATEGORIES</b></span></a></li>
+                <br>
+                <li><a href="#">Authors</a></li>
+                <li><a href="#">Story Tales</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Horror</a></li>
+                <li><a href="#">Adventures</a></li>
+                <li><a href="#">Romantic</a></li>
+
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <h3><i class="fa fa-copyright" aria-hidden="true">  Copyright 2020 Qwick Books Pvt. Ltd. All Rights Reserved .....</i></h3>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

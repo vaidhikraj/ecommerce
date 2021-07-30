@@ -1,0 +1,61 @@
+body{
+    margin:0;
+    font-family: 'Nunito', sans-serif;;
+}
+.navbar{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background-color:hsl(180, 20%, 40%);
+    color:whitesmoke
+}
+.navbar ul{
+    align-items: center;
+    display: flex;
+
+}
+.navbar ul li{
+    
+    list-style-type:none;
+    padding: 0px 20px;
+}
+.navbar ul li a{
+    
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.about_img{
+    background-image: url(images/vedh.jpg);
+    background-size:cover;
+  position: absolute;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width:100%;
+}
+
+.content{
+    margin:2% 3%;
+    width:46%;
+    color:black;
+}
+h1{
+ color:hsl(180, 20%, 40%);
+}
+h1:hover{
+    color:navy;
+}
+p:hover{
+    color:blue;
+}
+p{
+    color:rgb(1, 1, 49);
+    font-size: 16px;
+}
+.navbar ul li :hover{
+    color:#527a7a;
+    background-color: whitesmoke;
+    padding:15%;
+    border-radius:10%;
+  }
+  

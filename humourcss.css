@@ -1,0 +1,97 @@
+body{
+    margin:0;
+    font-family: 'Nunito', sans-serif;;
+}
+
+.navbar{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background-color:#527a7a;
+    color:whitesmoke
+}
+.navbar ul{
+    align-items: center;
+    display: flex;
+
+}
+.navbar ul li{
+    
+    list-style-type:none;
+    padding: 0px 20px;
+}
+.navbar ul li a{
+    
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.navbar ul li :hover{
+    color:#527a7a;
+    background-color: whitesmoke;
+    padding:15%;
+    border-radius:10%;
+  }
+.both{
+    display: flex;
+}
+
+.left ul li :hover{
+    color:orange;
+}
+.parent{
+    display:block;
+    height: 100vh;
+    margin:auto;
+}
+.right{
+    margin:auto;
+    display: flex;
+    height: 70vh;
+}
+.card{
+    height:350px;
+    width:200px;
+    padding:50px 50px;
+}
+img{
+    height:250px;
+    width:250x;
+}
+
+img:hover{
+    box-shadow: 10px 10px 10px #a3c2c2;
+}
+
+.checked {
+    color: orange;
+  }
+
+button {
+    background-color: #24a0ed; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  button:hover{
+      background-color: rgba(50, 218, 114, 0.979);
+  }
+  h4:hover{
+      color:orange;
+  }
+  
+  
+  
+  .left{
+      padding-top:22px;
+  }
+.left ul li{
+    list-style-type: none;
+}
+.left ul li a{
+    text-decoration:none;
+}
